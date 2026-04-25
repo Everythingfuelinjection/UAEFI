@@ -22,8 +22,8 @@ Gpio GENERATED_OUTPUTS[] = {
 	Gpio::C8, // PC8 ETB DIR
 	Gpio::C7, // PC7 ETB Control
 	Gpio::B14, // PB14 ETB Disable
-	Gpio::D12, // PD12 VVT Intake Solenoid
-	Gpio::D15, // PD15 VVT Exhaust Solenoid
+	Gpio::D12, // PD12 VVT Exhaust Solenoid
+	Gpio::D15, // PD15 VVT Inlet Solenoid
 	Gpio::B15, // PB15 Manifold Flap
 	Gpio::D13, // PD13 Fan 2
 	Gpio::B9, // PB9 Engine relay
@@ -47,8 +47,8 @@ Gpio GENERATED_OUTPUTS[] = {
 // "PC8 ETB DIR",
 // "PC7 ETB Control",
 // "PB14 ETB Disable",
-// "PD12 VVT Intake Solenoid",
-// "PD15 VVT Exhaust Solenoid",
+// "PD12 VVT Exhaust Solenoid",
+// "PD15 VVT Inlet Solenoid",
 // "PB15 Manifold Flap",
 // "PD13 Fan 2",
 // "PB9 Engine relay",

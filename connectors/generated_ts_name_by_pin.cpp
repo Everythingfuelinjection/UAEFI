@@ -35,11 +35,11 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D11:
 			return "PD11 Injector 3";
 		case Gpio::D12:
-			return "PD12 VVT Intake Solenoid";
+			return "PD12 VVT Exhaust Solenoid";
 		case Gpio::D13:
 			return "PD13 Fan 2";
 		case Gpio::D15:
-			return "PD15 VVT Exhaust Solenoid";
+			return "PD15 VVT Inlet Solenoid";
 		case Gpio::D2:
 			return "PD2 Injector 5";
 		case Gpio::D3:
